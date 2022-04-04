@@ -30,3 +30,18 @@
 *.exe
 *.out
 *.app
+GithubTest/.DS_Store
+.DS_Store
+GithubTest/config.make
+GithubTest/GithubTest.xcodeproj/project.pbxproj
+GithubTest/addons.make
+.gitignore.webarchive
+GithubTest/bin/data/.gitkeep
+GithubTest/GithubTest.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+GithubTest/GithubTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+GithubTest/GithubTest.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+GithubTest/GithubTest.xcodeproj/project.xcworkspace/xcuserdata/rashid.xcuserdatad/UserInterfaceState.xcuserstate
+GithubTest/GithubTest.xcodeproj/xcshareddata/xcschemes/GithubTest Debug.xcscheme
+GithubTest/GithubTest.xcodeproj/xcshareddata/xcschemes/GithubTest Release.xcscheme
+GithubTest/openFrameworks-Info.plist
+gitignore.txt
