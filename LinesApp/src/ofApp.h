@@ -1,6 +1,8 @@
 #pragma once
 
 #include "ofMain.h"
+#include "ofxGui.h"
+
 
 class ofApp : public ofBaseApp{
 
@@ -25,6 +27,13 @@ class ofApp : public ofBaseApp{
     ofPolyline myLine2;
     ofPolyline myLine3;
     float linePercent;
+    
+    ofxPanel gui;
+    ofxIntSlider red;
+    ofxIntSlider green;
+    ofxIntSlider blue;
+    
+
     
     
 };

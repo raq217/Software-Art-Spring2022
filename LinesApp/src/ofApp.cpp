@@ -12,36 +12,41 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
+    gui.setup();
+    gui.add(red.setup("red", 0, 0, 255));
+    gui.add(green.setup("green", 60, 0, 255));
+    gui.add(blue.setup("blue", 255, 0, 255));
+    
     linePercent += 0.005;
-
+    
+    
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
     ofSetLineWidth(10);
-    ofSetColor(50, 50, 255);
+    ofSetColor(red, green, blue);
     myLine.draw();
     myLine.getPointAtPercent (linePercent);
-    ofSetColor(255, 0, 0);
+    ofSetColor(red, green, blue);
     ofDrawCircle(myLine.getPointAtPercent(linePercent), 30);
     
     
     ofSetLineWidth(2);
-    ofSetColor(100,100,50);
+    ofSetColor(red, green, blue);
     myLine2.draw();
     myLine2.getPointAtPercent (linePercent);
-    ofSetColor(0, 255, 0);
+    ofSetColor(red, green, blue);
     ofDrawBox(myLine2.getPointAtPercent(linePercent), 30);
     
     
     ofSetLineWidth(5);
-    ofSetColor(0,0,200);
+    ofSetColor(red, green, blue);
     myLine3.draw();
     myLine3.getPointAtPercent (linePercent);
-    
-    ofSetColor(0, 0, 255);
+    ofSetColor(red, green, blue);
     ofDrawSphere(myLine3.getPointAtPercent(linePercent), 30);
-    
+    gui.draw();
 
 }
 

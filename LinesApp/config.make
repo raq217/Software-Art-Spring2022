@@ -6,7 +6,7 @@
 ################################################################################
 # OF ROOT
 #   The location of your root openFrameworks installation
-#       (default) OF_ROOT = ../../../../Downloads/of_v0.11.2_osx_release/../Downloads/of_v0.11.2_osx_release 
+#       (default) OF_ROOT = ../../../../Downloads/of_v0.11.2_osx_release/../Downloads/of_v0.11.2_osx_release/../Downloads/of_v0.11.2_osx_release 
 ################################################################################
 OF_ROOT = /Users/rashid/Downloads/of_v0.11.2_osx_release
 
