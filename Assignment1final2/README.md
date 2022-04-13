@@ -22,7 +22,9 @@ The code utilizes the meshes and vertex movements which can be adjusted in the "
 
 For the colors they can be changed to the user's preferences using the GUI panel. 
 Unfortunately the gifs could not be uploaded as they were too big (even after compression), here are the links:
+
 Link 1: https://gyazo.com/6276a07c3205f6dd7c9d20ab61ec30e9
+
 Link 2: https://gyazo.com/365aaa1c021b0b2fde0998589cfd008e
 
 
