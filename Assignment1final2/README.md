@@ -1,5 +1,26 @@
-aaaa
+COMMOTION OF THE OCEAN
 
+
+For this assignment I wanted to mimic the behavior of the waves. 
+The code utilizes the meshes and vertex movements which can be adjusted in the "movement" slider of the panel. This is the primary rule that the user faces, adjusting the speed at witch the vertexes are able to move. It is shaped in a square that splits into two different triangles which distort. 
+
+  for (int x = 0; x < size; x++){
+    for (int y = 0; y < size; y++){
+      mesh.addVertex(ofPoint(x - size / 3, y - size / 3));
+    }
+  }
+  
+  for (int x = 0; x < size - 2; x++){
+    for (int y = 0; y < size - 2; y++){
+      mesh.addIndex(x + y * size);
+      mesh.addIndex((x + 1) + y * size);
+      mesh.addIndex(x + (y + 1) * size);
+      mesh.addIndex((x + 1) + y * size);
+      mesh.addIndex((x + 1) + (y + 1) * size);
+      mesh.addIndex(x + (y + 1) * size);
+
+
+For the colors they can be changed to the user's preferences using the GUI panel. 
 
 
 
