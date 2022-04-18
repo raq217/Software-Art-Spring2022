@@ -13,4 +13,5 @@ The color change also uses the sin function which is relative to the time passed
 
 
 Gif showing the rotation:
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/66205383/163838090-bf60b02e-0f6e-48b8-bdc2-9bff44073590.gif)
+
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/66205383/163846963-a1ef98d0-3879-47a4-ab03-be8e64db8948.gif)
